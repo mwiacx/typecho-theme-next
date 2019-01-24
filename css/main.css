@@ -979,7 +979,7 @@ body {
 
 .menu .menu-item a {
   display: block;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: capitalize;
   line-height: 1.5;
   border-bottom: 1px solid transparent;
@@ -2394,7 +2394,7 @@ ul li {
 
 .header-inner {
   margin-bottom: 80px;
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .header-inner:before,
