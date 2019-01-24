@@ -1,4 +1,13 @@
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
+@font-face {
+    font-family: 'MyKXFonts';
+    /*for ie*/
+    src: url("../fonts/MyKXFonts.eot");
+    src: url("../fonts/MyKXFonts.eot#iefix") format("embedded-opentype"),
+         url("../fonts/MyKXFonts.woff") format("woff"),
+         url("../fonts/MyKXFonts.ttf") format("truetype"),
+         url("../fonts/MyKXFonts.svg#webfont") format("svg");
+}
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
@@ -702,7 +711,7 @@ body {
   color: #222;
   background: #222;
   border-bottom: none;
-  font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: MyKXFonts, Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .brand:hover {
   color: #222;
@@ -2564,3 +2573,4 @@ img.alignright {
         margin: 10px 20px;
     }
 }
+
